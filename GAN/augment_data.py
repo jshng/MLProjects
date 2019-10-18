@@ -22,7 +22,7 @@ def load_cifar10_batch(batch_id, CIFAR10_DATASET_FOLDER):
     returns:
         Images (3d array) and their corresponding labels (list of ints)    
     """
-    with open(CIFAR10_DATASET_FOLDER + '\data_batch_' + str(batch_id), 
+    with open(CIFAR10_DATASET_FOLDER + '/data_batch_' + str(batch_id), 
               mode = 'rb') as file:
         batch = pickle.load(file, encoding = 'latin1')
 
