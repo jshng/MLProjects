@@ -219,7 +219,7 @@ class GAN():
                 axs[i,j].imshow(gen_imgs[cnt, :,:,:])
                 axs[i,j].axis('off')
                 cnt += 1
-        fig.savefig("CIFAR10_gen_imgs\Airplane_%d.png" % epoch)
+        fig.savefig("CIFAR10_gen_imgs/Airplane_%d.png" % epoch)
         plt.close()
 
 
